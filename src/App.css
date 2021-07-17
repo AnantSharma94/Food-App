@@ -1,0 +1,138 @@
+
+.header {
+  background-color: grey;
+  height: 5rem;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.goBack{
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.title{
+  font-size: 2rem;
+}
+
+.order-tag{
+  cursor: pointer;
+}
+
+.cart-icon{
+  margin-left: 2rem;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.category-div{
+  width: 100vw;
+  height: 10vh;
+  background-color: #e8e8e8;
+}
+
+.category-div span{
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category:hover{
+  color: crimson;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 70vh;
+  height: 60vh;
+  margin: 20px;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+  cursor: pointer;
+  max-height: fit-content;
+}
+
+.card:hover{
+  --translate-y: -2px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.6);
+}
+
+.card-content{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.price{
+  margin-top: 30px;
+  margin-left: 20px;
+  cursor: text;
+}
+
+.calories{
+  text-align: right;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: text;
+
+}
+
+.dish_name{
+  font-size: 2rem;
+  margin-bottom: 10px;
+  cursor: text;
+}
+
+.description{
+  margin: 20px;
+  color: grey;
+  cursor: text;
+}
+
+.card img{
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+  cursor: text;
+}
+
+.btn{
+  width: 200px;
+  margin: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: greenyellow;
+  font-size: 2rem;
+  border-radius: 50px 50px 50px 50px
+}
+
+.decrement-button{
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.increment-button{
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.items{
+  cursor: text;
+}
+
+
+
